@@ -8,6 +8,8 @@ class Movie
     private $regista;
     private $durata;
     private $anno;
+    private $prezzo;
+
 
     public function __construct($_titolo, $_genere, $_attori, $_regista, $_durata, $_anno, $_prezzo)
     {
